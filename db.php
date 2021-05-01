@@ -1,5 +1,5 @@
 <?php 
-	$server="localhost";
+	$server="prahical-password.github.io";
 	$user="root";
 	$password="";
 	$database="gpas_final";

@@ -1,5 +1,5 @@
 <?php
-$server = 'localhost';
+$server = 'graphical-passowrd.github.io';
 $username = 'root';
 $password = '';
 $database = 'auth';
