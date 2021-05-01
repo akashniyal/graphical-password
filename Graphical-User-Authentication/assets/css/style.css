@@ -1,0 +1,159 @@
+
+body{
+	margin:40px;
+	padding:0px;
+	font-family: 'Comfortaa', cursive;
+	text-align:center;
+}
+
+input[type="text"], input[type="password"]{
+	outline:none;
+	padding:10px;
+	display:block;
+	width:300px;
+	border-radius: 3px;
+	border:1px solid #eee;
+	margin:20px auto;
+}
+
+input[type="submit"]{
+	padding:10px;
+	color:#fff;
+	background:#0098cb;
+	width:320px;
+	margin:20px auto;
+	margin-top:0px;
+	border:0px;
+	border-radius: 3px;
+	cursor:pointer;
+}
+
+input[type="submit"]:hover{
+	background:#00b8eb;
+}
+
+.header{
+	border-bottom:1px solid #eee;
+	padding:10px 0px;
+	width:100%;
+	text-align:center;
+}
+
+.header a{
+	color:#333;
+	text-decoration: none;
+}
+
+.parent {
+  
+position: relative;
+  top: 0%;
+  left: 37%;
+              
+}
+    
+.wrapper {
+  display: grid;
+  grid-template-rows: 61px 61px 61px 61px 61px ;
+  grid-template-columns: 61px 61px 61px 61px 61px;
+  grid-gap: 1px;
+  background-color: #fff;
+  color: #444;
+   z-index: 2;
+    position: absolute;
+    opacity: 0.5;
+}
+    
+    .container {
+  z-index: 1;
+        position: absolute;
+        
+}
+
+
+.box {
+  background-color: #444;
+  color: #fff;
+
+    padding: 0px;
+  font-size: 100%;
+  cursor: crosshair;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.box:active {
+     background-color: #444;
+  color: #fff;
+
+    padding: 0px;
+  font-size: 100%;
+  cursor: crosshair;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    z-index: 2;
+    opacity: 0.5;
+    border-color: coral;
+}
+    
+
+#btnControl:checked + label > img {
+    width: 70px;
+    height: 74px;
+}
+
+    
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+    
+    .active {
+  background-color: #4CAF50;
+}
+    
+        .black {
+  background-color: black;
+}
+    
+    .button {
+    background-color: black;
+}
+
+
+.hideme
+{
+    display:none;
+    visibility:hidden;
+}
+    
+
+    

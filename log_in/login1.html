@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Login</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="css/style-footer.css">
+		<link href="css/style1.css" rel="stylesheet">
+		<link href="css/style-body.css" rel="stylesheet" type="text/css" media="all"/>
+		
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+		
+		
+	</head>
+	
+	<body>
+		<!--Main Header-->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+						<li class="active">
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../about.html">About Us</a>
+						</li>
+                        
+						<li>
+							<a href="../contact.html">Contact Us</a>
+						</li>                                             
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		<!--End Main Header -->
+		
+		<!-- login form -->
+		<div class="signupform">
+			<div class="container">
+				<div class="agile_info">
+					
+					<!-- right side -->
+					<div class="login_info">
+						<h2>Login to your Account</h2>
+						<p>Select Method</p>
+						<input type ="checkbox" name="gender" value="male" id="male"> 
+						<label>Image Select Password</label>
+						<br />
+						
+						<input type ="checkbox" name="gender" value="male" id="female">
+						<label>Grid Password</label>
+						<br />				
+						<button class="btn btn-danger btn-block" type="submit" onClick="redirect()">Submit</button >                
+						
+						
+						
+						<p class="account">Don't have an account? <a href="../registration/signup1.html">Register here</a></p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<script>
+			function redirect()
+			{
+				if(document.getElementById("male").checked == true)
+				window.location.href = 'http://localhost:8080/Gpas/log_in/login.html';
+				else if(document.getElementById("female").checked == true)
+				window.location.href = 'http://localhost:8080/Gpas/Graphical-User-Authentication/home.php';        
+			}
+			
+		</script>
+		<!-- footer -->
+		<footer class="footer-distributed">
+			<!-- footer left -->
+			<div class="footer-left">              
+				<h3>Company<span>logo</span></h3>        
+				<p class="footer-links">
+					<a href="#">Home</a>
+					
+					·
+					<a href="#">About</a>
+					·
+					<a href="#">Faq</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+				
+				
+			</div>
+			
+		</footer>
+		
+		<script src="plugins/jquery.js"></script>
+		<script src="plugins/bootstrap.min.js"></script>
+		<script src="plugins/bootstrap-select.min.js"></script>
+		
+		<script src="plugins/validate.js"></script>
+		<script src="plugins/wow.js"></script>
+		<script src="plugins/jquery-ui.js"></script>
+		<script src="js/script.js"></script>	
+	</body>
+</html>
